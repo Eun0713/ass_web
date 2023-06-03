@@ -4,14 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="./CSS/mainstyle.css>
-
-  <style>
-    /* 추가적인 CSS 스타일링 */
-    .hidden {
-      display: none;
-    }
-  </style>
+  <link rel="stylesheet" href="./CSS/mainstyle.css" type="text/css">
   <script>
     function showSection(sectionId) {
       const sections = document.getElementsByClassName('section');
@@ -23,7 +16,7 @@
     }
     function showAllSections() {
       const sections = document.getElementsByClassName('section');
-      for (let i = 0; i < sections.length; i++) {
+      for (let i = 0; i<sections.length; i++) {
         sections[i].classList.remove('hidden');
       }
     }
@@ -49,7 +42,7 @@
 
     <section id="about" class="section hidden">
       <div class="about-content">
-      <img src="C:\Users\js020\OneDrive\바탕 화면\My\image\my.jpg" alt="My Profile Picture" class="profile-image">
+      <img src="./image/my.jpg" alt="My Profile Picture" class="profile-image">
 
         <div class="profile-text">
           <h2>About Me</h2>
@@ -70,18 +63,18 @@
       <h3>Project 1</h3>
       <p>2017-2018 FLL 전국대회 우승, 헝가리 데브레첸 [ Debrecen ] 에서 열린 ‘OPEN INVITATIONAL CENTRAL EUROPE’ 한국 대표로 참가</p>
       <p>2018년도 FLL의 주제:<strong> "물(HYDRO DYNAMICS)"</strong></p>
-      <a href="C:\Users\js020\OneDrive\바탕 화면\개인활동자료 및 실적물-3-6.pdf" target="_blank">View PDF</a> <!-- 수정: PDF 파일에 대한 링크 추가 -->
+      <a href="./개인활동자료 및 실적물-3-6.pdf" target="_blank">View PDF</a> <!-- 수정: PDF 파일에 대한 링크 추가 -->
     </li>
     <li>
       <h3>Project 2</h3>
       <p>2018-2019 FLL 한국대회 로봇 퍼포먼스 1위, 2019년도 유럽 세계대회 터키 이즈미르[Izmir] 참가</p>
       <p>2018-2019 FLL의 주제:<strong> "우주(INTO ORBIT)"</strong></p>
-      <a href="C:\Users\js020\OneDrive\바탕 화면\개인활동자료 및 실적물-9-11.pdf" target="_blank">View PDF</a> <!-- 수정: PDF 파일에 대한 링크 추가 -->
+      <a href="./개인활동자료 및 실적물-9-11.pdf" target="_blank">View PDF</a> <!-- 수정: PDF 파일에 대한 링크 추가 -->
     </li>
     <li>
       <h3>Project 3</h3>
       <p>2016-2017 FLL의 주제: <strong> "동물(Animal allies)"</strong></p>
-      <a href="C:\Users\js020\OneDrive\바탕 화면\개인활동실적.pdf" target="_blank">View PDF</a> <!-- 수정: PDF 파일에 대한 링크 추가 -->
+      <a href="./개인활동실적.pdf" target="_blank">View PDF</a> <!-- 수정: PDF 파일에 대한 링크 추가 -->
     </li>
   </ul>
 </section>
